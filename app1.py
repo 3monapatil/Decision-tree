@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 
-my_dtr = pickle.load(open("snehal_my.pkl","rb"))
+my_dtr = pickle.load(open("decision_Tree_model.pkl","rb"))
 
 def predict(data):
     return my_dtr.predict(data)
